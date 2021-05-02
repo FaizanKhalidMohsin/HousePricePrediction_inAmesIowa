@@ -1,0 +1,22 @@
+Data: 	X dimension: 730 35 
+	Y dimension: 730 1
+Fit method: kernelpls
+Number of components considered: 16
+
+VALIDATION: RMSEP
+Cross-validated using 10 random segments.
+       (Intercept)  1 comps  2 comps  3 comps  4 comps  5 comps  6 comps  7 comps  8 comps  9 comps  10 comps  11 comps  12 comps
+CV           85759    45435    46520    47064    47349    47097    46826    46804    46843    46915     46987     46995     46987
+adjCV        85759    45390    46255    46699    46915    46672    46417    46398    46432    46498     46563     46571     46563
+       13 comps  14 comps  15 comps  16 comps
+CV        46983     46984     46980     46979
+adjCV     46560     46561     46557     46556
+
+TRAINING: % variance explained
+           1 comps  2 comps  3 comps  4 comps  5 comps  6 comps  7 comps  8 comps  9 comps  10 comps  11 comps  12 comps  13 comps
+X            20.40    25.09    30.75    35.77    41.04    44.30    48.60    51.14    53.38     55.26     57.04     58.89     61.03
+SalePrice    73.33    76.83    77.80    78.38    78.61    78.73    78.76    78.78    78.80     78.80     78.80     78.80     78.80
+           14 comps  15 comps  16 comps
+X             62.56      64.4     66.02
+SalePrice     78.80      78.8     78.80
+NULL
